@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 15px;
+}
+.header h1{
+    text-align: center;
+}
+.main_page{
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+.main_page >*{
+    flex: 1;
+}
+.inputs{
+    width: 200px;
+}
+input:focus{
+    outline: 1px solid black;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.btns > *{
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.checker{
+    flex: 1;
+    background-color: #c55;
+}
+.hinter{
+    background-color: #399;
+}
+
+
+.guides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guides h3{
+    padding: 15px;
+    text-align: center;
+}
+
+.guides .key{
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.guides .key .clr{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
